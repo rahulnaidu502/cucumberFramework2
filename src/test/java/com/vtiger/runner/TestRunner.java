@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/Features/",
 		glue = "com.vtiger.stepdefinitions",
 		dryRun = false,
-		plugin = {"pretty", "html:target/cucumber-reports.html"},
+		plugin = {"pretty", "html:target/cucumber-reports.html","json:target/cucumber.json"},
 		tags = "@only"
 		
 		
