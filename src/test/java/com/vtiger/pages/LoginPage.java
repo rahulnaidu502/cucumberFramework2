@@ -16,7 +16,7 @@ public class LoginPage extends PageActions {
 	{
 		super(driver, logger);
 		PageFactory.initElements(driver, this);
-		System.out.println("Hey I am Rahul");
+
 	}
 	
 	
