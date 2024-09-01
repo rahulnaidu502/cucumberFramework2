@@ -5,7 +5,7 @@ Given user should be on login page
 When user enter the valid credentials
 
 
-@only
+@Rahul
 Scenario: TC_04_create_lead
 When user fills the mandatory fields as "<lastname>" and "<Company>"
 |lastname  | Company   |
