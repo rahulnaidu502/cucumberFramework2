@@ -46,6 +46,7 @@ public class basesteps {
 
 	public void launchApp() throws Exception {
 
+		//System.out.println("Test1");
 		readExcel();
 		System.out.println(dt);
 		readProperties();
